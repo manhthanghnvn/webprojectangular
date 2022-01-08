@@ -1,1 +1,317 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #f0ebe5;
+  text-align: center;
+  background-color:#eeeeee;
+  /*    cursor: pointer;*/
+}
+a{
+  text-decoration: none;
+  color: #222222;
+}
+img{
+  max-width: 100%;
+}
+p{
+  margin-bottom: 25px;
+}
+
+.section{
+  float:left;
+  width: 100%;
+  box-sizing: border-box;
+}
+.container{
+  float: none;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.header{
+  position: fixed;
+  background-color: #e89245;
+  /*border-bottom: 1px solid #eeeeee;*/
+  padding: 5px 0;
+  height: 139px;
+}
+.logo{
+  float: left;
+  width: 10%;
+}
+.toplinks{
+  float: right;
+  text-transform: uppercase;
+
+}
+.logo a{
+  font-size: 28px;
+  color: #222222;
+  font-weight: 700;
+}
+.logo p{
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+.toplinks li{
+  list-style: none;
+  float: left;
+  margin-left: 25px;
+}
+.active-link{
+  display: block ;
+border-bottom: 4px solid #222222}
+.toplinks li a{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 128px;
+}
+.nav{
+  position: fixed;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 0;
+  top:128px;
+}
+
+
+.menu li{
+
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.menu li a:hover{
+  color: #222222;
+
+  font-weight: 700;
+  color: #f57502;
+}
+/*.menu li:hover{*/
+   /*list-style: none; !*mất chấm ở đầu *!*/
+   /*float: left; !* ngang hang nhau *!*/
+
+   /*color: #e89245;*/
+
+ /*}*/
+
+
+.thumbnail{
+  border-radius: 50%;
+  max-width: 58px;
+  padding: 5px;
+  margin: 5px auto;
+  min-height: 58px;
+}
+
+.main{
+  margin-top: 150px;
+  width: 100%;
+  background-color: #fafafafa;
+}
+.content{
+  float:left;
+  width: 100%;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  margin-top: 700px;
+}
+.content .entry{
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0px;
+}
+.content-menucenter{
+  margin-top: 180px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid #eeeeee;
+}
+
+.bt{
+  background-color: #e89245;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 8px;
+  margin: 10px 20px;
+  font-weight: bolder;
+  color: #eeeeee;
+}
+
+.menusecond{
+  display: flex;
+  justify-content: center;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.content-menucenter{
+  float:left;
+  width: 100%;
+}
+.content-menu .entry{
+  float: left;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.section-category {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.product-list li{
+  list-style: none;
+  float:left;
+  padding: 10px;
+  width: 33.33%;
+  margin-bottom: 20px;
+
+
+
+}
+.product-list {/* menu chính */
+  float: left;
+  background-color: #ffffff;
+  padding-right: 10px;
+  width: 100%;
+}
+.product-title{
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.describe{
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #a29191;
+}
+.product-inner .product-price {
+  color: #ff0000;
+  font-size: 28px;
+  font-weight: 600;
+}
+.product-action {
+  width: 100%;
+  margin-block: auto;
+
+}
+
+.product-list .product-item img:hover{
+  opacity: 70%;
+}
+
+h2:hover{
+  display: block;
+
+  font-weight: 700;
+  color: #e89245;
+
+}
+
+.hotline-bar .hotline {
+  position: fixed;
+  right: 33px;
+  bottom: 90px;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #6e1e1e;
+  color: #ffffff;
+margin-bottom: 0%;
+}
+
+.copyright{
+  float: left;
+  margin: 20px 40px;
+  height: 50px;
+
+}
+
+.bottomlinks{
+  float: right;
+  height: 50px;
+}
+
+.bottomlinks li{
+  float: left;
+  list-style: none;
+  margin: 20px 40px;
+}
+
+.bottomlinks li a{
+  color: #eeeeee;
+}
+
+/*product details*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:200px auto;
+  text-align: center;
+  font-family: Roboto;
+  color: #000;
+  height: 800px;
+}
+
+.price {
+  color: #d74747;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #e89245;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.addon{
+  text-align: left;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.productname{
+  color: #e89245;
+}
+
